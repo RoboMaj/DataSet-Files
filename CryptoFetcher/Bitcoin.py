@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Define the API endpoint and parameters
-url = "https://rest.coinapi.io/v1/ohlcv/BITSTAMP_SPOT_BTC_USD/history"
+url = "https://rest.coinapi.io/v1/ohlcv/BITSTAMP_SPOT_ETH_USD/history"
 headers = {'X-CoinAPI-Key' : 'C7F3BD0C-F269-4443-A06A-C6E0A9B19A10'}
 params = {
     'period_id': '5MIN',
@@ -31,4 +31,4 @@ df['Close time'] = pd.to_datetime(df['time_period_end'])
 df = df.drop(columns=['time_period_start', 'time_period_end'])
 
 # Save the DataFrame to a CSV file
-df.to_csv('bitcoin_data.csv', index=False)
+df.to_csv('ETH_data.csv', index=False)
