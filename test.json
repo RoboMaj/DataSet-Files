@@ -1,0 +1,33 @@
+{
+    "Interval": "FiveMinutes",
+    "Candles": [
+        {
+            "InstrumentId": 100000,
+            "Candles": [
+                {
+                    "InstrumentID": 100000,
+                    "FromDate": "2024-06-11T09:25:00Z",
+                    "Open": 66652.23,
+                    "High": 66698.71,
+                    "Low": 66604.25,
+                    "Close": 66656.58,
+                    "Volume": null
+                },
+                {
+                    "InstrumentID": 100000,
+                    "FromDate": "2024-06-11T09:30:00Z",
+                    "Open": 66656.58,
+                    "High": 66713.25,
+                    "Low": 66481.85,
+                    "Close": 66693.25,
+                    "Volume": null
+                }
+            ],
+            "RangeOpen": 66652.23,
+            "RangeClose": 66693.25,
+            "RangeHigh": 66713.25,
+            "RangeLow": 66481.85,
+            "Volume": 0.0
+        }
+    ]
+}
